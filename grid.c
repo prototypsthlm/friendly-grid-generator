@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
     if(i % columns == 0 || (i + 1) % columns == 0) {
       printf("XX ");
     } else {
-      printf("%02d ", i);
+      printf("%03d ", i);
     }
 
     if((i + 1) % columns == 0 && i != 0) {
